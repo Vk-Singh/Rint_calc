@@ -3,7 +3,7 @@ import pandas as pd
 
 my_dict = {}
 
-f = open("D:\\IdeaProjects\\Rint_Calc\\data.txt", "r")
+f = open("data.txt", "r")
 
 for x in f:
 
@@ -28,4 +28,4 @@ df = df.reindex(sorted(df.columns), axis=1)
 print (df)
 #df.to_excel("Output.xlsx")
 
-df.to_csv("D:\\IdeaProjects\\Rint_Calc\\Output1.csv")
+df.to_csv("Output1.csv")
